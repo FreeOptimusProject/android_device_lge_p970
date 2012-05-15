@@ -1,0 +1,35 @@
+# Graphic
+/dev/pvrsrvkm           0666    system     graphics
+/dev/graphics/fb0       0640    system     graphics
+
+# RIL
+/dev/ttyspi0            0660    radio      radio
+/dev/ttyspi1            0660    radio      radio
+/dev/pts*               0660    radio      radio
+
+/dev/akm8973_daemon     0666    compass    system
+/dev/kxtf9_accel        0666    compass    system
+/dev/akm8973_aot        0666    compass    system
+/dev/mpu                0777    compass    system
+/dev/mpuirq             0777    compass    system
+/dev/accelirq           0777    compass    system
+/dev/timerirq           0777    compass    system
+/dev/motion_daemon      0666    compass    system
+/dev/accel_api          0666    compass    system
+/dev/DspBridge          0777    system     system
+/dev/video0             0666    media      media
+/dev/video1             0666    media      media
+/dev/video2             0666    media      media
+/dev/video3             0666    media      media
+/dev/video4             0666    media      media
+/dev/video5             0666    media      media
+/dev/video6             0666    media      media
+/dev/video10            0666    media      media
+/dev/omap-previewer     0644    media      system
+/dev/omap-resizer       0644    media      system
+/dev/omap-prev2resz 	0644    media      system
+/dev/ttyO1              0660    bluetooth  bluetooth
+/dev/ttyHS0             0600    bluetooth  bluetooth
+
+# video encoder on 720p-enabled 8k targets
+/dev/pmem_venc          0660    system     audio

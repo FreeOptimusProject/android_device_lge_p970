@@ -1,0 +1,4 @@
+# dev_mount sdcard /mnt/sdcard auto /devices/platform/mmci-omap-hs.0/mmc_host/mmc1
+# goldfish_mmc.0 	: emulator emmc driver
+# mmc1			: sdcard driver
+dev_mount sdcard /mnt/sdcard auto /devices/platform/goldfish_mmc.0 /devices/platform/mmci-omap-hs.0/mmc_host/mmc1
